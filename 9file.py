@@ -34,3 +34,4 @@ class Student(object):
 
 s = Student('kaspar',20,88)
 print(json.dumps(s,default=lambda obj:obj.__dict__))
+//修改文件测试 git
